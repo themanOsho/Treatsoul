@@ -153,6 +153,15 @@ header .social-follow a {
     border-radius: 10px;
 }
 
+@media screen and (max-width: 767px) {
+    .industry p {
+        font-size: small;
+    }
+    .industry li {
+        font-size: small;
+    }
+}
+
 .industry-div-left img {
     border-radius: 10px 10px 0 0;
 }
