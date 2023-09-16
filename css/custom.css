@@ -329,9 +329,14 @@ input[type=text]:focus {
 }
 
 /* small and medium */
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
     .footer-div-2 .inner button {
         width: 100%; 
-        margin-left: 5%;
+        margin: 0;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .footer-div-2 .inner button {
+        width: 40%; 
     }
 }
