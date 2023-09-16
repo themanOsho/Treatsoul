@@ -155,6 +155,9 @@ header .social-follow a {
 
 /* small screen */
 @media screen and (max-width: 767px) {
+    .industry .ind-topic {
+        font-size: large;
+    }
     .industry h2 {
         font-size: medium;
     }
@@ -208,13 +211,6 @@ header .social-follow a {
     border-radius: 10px;
 }
 
-/* small screen */
-@media screen and (max-width: 767px) {
-    .industry-div-right-bottom-section .right {
-        margin-top: 2%;
-    }
-}
-
 .left img {
     border-radius: 10px 10px 0 0;
 }
@@ -242,14 +238,13 @@ header .social-follow a {
  /* small and medium */
 @media screen and (max-width: 1023px) {
     .industry-div-right-bottom-section .left {
-        width: 100%; margin: 0;
+        width: 100%; margin-bottom: 2%;
     }
     .industry-div-right-bottom-section .right {
         width: 100%;
         margin: 0;
     }
 }
-
 
 .highlights {
     padding: 50px 40px;
