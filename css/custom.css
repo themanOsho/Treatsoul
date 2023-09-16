@@ -230,6 +230,24 @@ header .social-follow a {
 
 /* small screen */
 @media screen and (max-width: 767px) {
+    .our-team-inner img {
+        width: 100%;
+    }
+    .our-team-inner-modal {
+        line-height: 10px;
+    }
+    .our-team-inner h5 {
+        font-size: 12px;
+    }
+    .our-team-inner h6 {
+        font-size: 10px;
+    }
+    .our-team-inner p {
+        font-size: 8px;
+    }
+    .our-team-inner .title {
+        font-size: 8px;
+    }
     .our-team-inner-box {
         width: 100%; 
         padding: 0;
@@ -313,7 +331,7 @@ input[type=text]:focus {
 /* small and medium */
 @media screen and (max-width: 1023px) {
     .footer-div-2 .inner button {
-        width: 60%; 
-        margin-left: 25%;
+        width: 100%; 
+        margin-left: 5%;
     }
 }
