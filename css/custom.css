@@ -73,6 +73,15 @@ header .nav {
     font-weight: 600;
 }
 
+/* medium screen */
+@media screen and (max-width: 1023px) {
+    header .nav a {
+        font-size: larger;
+        font-weight: 600;
+        line-height: 40px;
+    }
+}
+
 header .social-follow {
     width: 10%;
     padding: 18px;
@@ -84,6 +93,22 @@ header .social-follow a {
 }
 
 /* banner section style here */
+
+@media screen and (max-width: 767px) {
+    .banner-box {
+        padding: 10px 15px;
+        line-height: 15px;
+    }
+    .banner-box i {
+        font-size: small;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .banner-box {
+        padding: 50px 25px;
+    }
+}
 
 .product-section {
     padding: 50px 40px;
