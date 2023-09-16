@@ -153,7 +153,11 @@ header .social-follow a {
     border-radius: 10px;
 }
 
+/* small screen */
 @media screen and (max-width: 767px) {
+    .industry h2 {
+        font-size: medium;
+    }
     .industry p {
         font-size: small;
     }
@@ -203,6 +207,14 @@ header .social-follow a {
 .left {
     border-radius: 10px;
 }
+
+/* small screen */
+@media screen and (max-width: 767px) {
+    .industry-div-right-bottom-section .right {
+        margin-top: 2%;
+    }
+}
+
 .left img {
     border-radius: 10px 10px 0 0;
 }
