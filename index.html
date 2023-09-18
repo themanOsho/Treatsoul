@@ -155,7 +155,7 @@
                     </div>
                 </div>
                 <div class="w3-row w3-center tabDiv w3-container w3-padding">
-                    <a href="javascript:void(0)" onclick="openTab(event, 'product');" style="width: 25%;">
+                    <a href="javascript:void(0)" class="tablink" onclick="openTab(event, 'product');" style="width: 25%;">
                         <div class="w3-third w3-mobile tablink w3-hover-none w3-hover-text-light-blue w3-hover-border-light-blue w3-border-bottom w3-padding"
                             style="width: 25%;">Product</div>
                     </a>
@@ -375,9 +375,11 @@
             tablinks = document.getElementsByClassName("tablink");
             for (i = 0; i < x.length; i++) {
                 tablinks[i].className = tablinks[i].className.replace(" w3-border-light-blue", "");
+                tablinks[i].className = tablinks[i].className.replace(" w3-text-light-blue", "");
             }
             document.getElementById(cityName).style.display = "block";
             evt.currentTarget.firstElementChild.className += " w3-border-light-blue";
+            evt.currentTarget.firstElementChild.className += " w3-text-light-blue";
         }
     </script>
 </body>
