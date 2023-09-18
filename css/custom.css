@@ -104,7 +104,15 @@ header .social-follow a {
     }
 }
 
+/* medium screens */
 @media screen and (min-width: 767px) and (max-width: 1023px) {
+    .banner-box {
+        padding: 50px 25px;
+    }
+}
+
+/* large screens */
+@media screen and (min-width: 1023px) {
     .banner-box {
         padding: 50px 25px;
     }
@@ -129,10 +137,6 @@ header .social-follow a {
 }
 
 .product-section button {
-    font-size: 18px;
-}
-
-.tab a {
     font-size: 18px;
 }
 
