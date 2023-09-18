@@ -123,7 +123,7 @@ header .social-follow a {
 }
 
 .product-section {
-    padding: 50px 40px;
+    padding: 60px 30px;
 }
 
 .product-section h4 {
@@ -133,15 +133,22 @@ header .social-follow a {
 .product-section ul li {
     font-size: 16px;
     color: #000000;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .product-section h2 {
     color: #59afd9;
 }
 
-.product-section button {
+.product-section a {
     font-size: 18px;
+}
+
+/* large screens */
+@media screen and (min-width: 1023px) {
+    .tabDiv {
+        margin-top: 6%;
+    }
 }
 
 .industry {
@@ -308,9 +315,14 @@ header .social-follow a {
     }
 }
 
-.our-team h2, h5 {
+.our-team h2 {
     color: #59afd9;
     font-weight: bold;
+}
+
+.our-team h5 {
+    color: #59afd9;
+    font-weight: 900;
 }
 
 .our-team h6 {
