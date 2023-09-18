@@ -258,6 +258,10 @@ header .social-follow a {
     padding: 50px 40px;
 }
 
+.highlights p {
+    font-size: 32px;
+    font-weight: 700;
+}
 /* our team */
 .our-team {
     background-color: rgb(219, 235, 247);
