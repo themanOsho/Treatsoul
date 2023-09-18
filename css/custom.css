@@ -93,7 +93,11 @@ header .social-follow a {
 }
 
 /* banner section style here */
-
+.banner-box {
+    font-size: 24px; 
+    font-weight: 500;
+    color: #2d4059;
+}
 @media screen and (max-width: 767px) {
     .banner-box {
         padding: 10px 15px;
@@ -114,7 +118,7 @@ header .social-follow a {
 /* large screens */
 @media screen and (min-width: 1023px) {
     .banner-box {
-        padding: 50px 25px;
+        padding: 70px 25px;
     }
 }
 
