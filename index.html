@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/custom.css">
     <!-- Import font awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Import animation on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -71,11 +73,11 @@
     <section class="product-section">
         <div class="w3-row">
             <div class="w3-col l5 m12">
-                <img class="w3-image" src="images/Reprosol.jpg" alt="Reprosol image" width="100%">
+                <img class="w3-image" src="images/Reprosol.jpg" alt="Reprosol image" width="100%" data-aos="slide-right">
             </div>
             <div class="w3-col l7 m12">
                 <!-- first tab -->
-                <div id="product" class="w3-container tab" style="line-height: 25px;">
+                <div id="product" class="w3-container tab" style="line-height: 25px;" data-aos="slide-left">
                     <div>
                         <h2>Reprosol</h2>
                         <h4>Reproductive Solution</h4>
@@ -154,8 +156,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="w3-row w3-center tabDiv w3-container w3-padding">
-                    <a href="javascript:void(0)" class="tablink" onclick="openTab(event, 'product');" style="width: 25%;">
+                <div class="w3-row w3-center tabDiv w3-container w3-padding" data-aos="zoom-in-up">
+                    <a href="javascript:void(0)" onclick="openTab(event, 'product');" style="width: 25%;">
                         <div class="w3-third w3-mobile tablink w3-hover-none w3-hover-text-light-blue w3-hover-border-light-blue w3-border-bottom w3-padding"
                             style="width: 25%;">Product</div>
                     </a>
@@ -177,7 +179,7 @@
     </section>
     <!-- industry section -->
     <div class="industry">
-        <div class="w3-row">
+        <div class="w3-row" data-aos="fade">
             <div class="w3-padding w3-col m12 l6">
                 <div class="industry-div-left w3-card-2">
                     <img src="images/Dairy Industry.jpg" alt="Dairy Industry img" style="width: 100%;">
@@ -242,22 +244,22 @@
     <!-- highlights -->
     <div class="highlights">
         <div class="w3-row">
-            <div class="w3-display-container m12 l4 w3-col w3-third w3-text-white w3-hover-opacity">
+            <div class="w3-display-container m12 l4 w3-col w3-third w3-text-white w3-hover-opacity" data-aos="slide-right">
                 <img src="images/Journey so far.jpg" alt="Lights" style="width:100%">
                 <div class="w3-display-bottommiddle w3-padding w3-center w3-hover-opacity-off" style="width: 80%;">
-                    <p>Journey So Far</p>
+                    <p data-aos="fade" data-aos-delay="1500">Journey So Far</p>
                 </div>
             </div>
-            <div class="w3-display-container w3-third w3-col m12 l4 w3-text-white w3-hover-opacity">
+            <div class="w3-display-container w3-third w3-col m12 l4 w3-text-white w3-hover-opacity" data-aos="zoom-in">
                 <img src="images/Projections.jpg" alt="Lights" style="width:100%">
                 <div class="w3-display-bottommiddle w3-padding w3-center" style="width: 80%;">
-                    <p>Projections</p>
+                    <p data-aos="fade" data-aos-delay="1500">Projections</p>
                 </div>
             </div>
-            <div class="w3-display-container w3-third w3-col m12 l4 w3-text-white w3-hover-opacity">
+            <div class="w3-display-container w3-third w3-col m12 l4 w3-text-white w3-hover-opacity" data-aos="slide-left">
                 <img src="images/Future Scope.jpg" alt="Lights" style="width:100%">
                 <div class="w3-display-bottommiddle w3-padding w3-center" style="width: 80%;">
-                    <p>Future Scope</p>
+                    <p data-aos="fade" data-aos-delay="1500">Future Scope</p>
                 </div>
             </div>
         </div>
@@ -350,6 +352,15 @@
             <h6><i class="fa-solid fa-copyright"></i> 2023 treatsoul pharmaceuticals pvt ltd.</h6>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js">
+        // animations on Scroll, data-aos(animation on scroll)="value" 
+    </script>
+    <script>
+        // set animation duration 
+        AOS.init({
+            duration: 3000,
+        });
+    </script>
     <script src="https://kit.fontawesome.com/c75a29d236.js" crossorigin="anonymous">
         // Fa fa Icons
     </script>
@@ -366,7 +377,7 @@
     </script>
     <!-- product tabs -->
     <script>
-        function openTab(evt, cityName) {
+        function openTab(evt, tabName) {
             var i, x, tablinks;
             x = document.getElementsByClassName("tab");
             for (i = 0; i < x.length; i++) {
@@ -374,10 +385,10 @@
             }
             tablinks = document.getElementsByClassName("tablink");
             for (i = 0; i < x.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" w3-border-light-blue", "");
-                tablinks[i].className = tablinks[i].className.replace(" w3-text-light-blue", "");
+                tablinks[i].className = tablinks[i].className.replace("w3-border-light-blue", "");
+                tablinks[i].className = tablinks[i].className.replace("w3-text-light-blue", "");
             }
-            document.getElementById(cityName).style.display = "block";
+            document.getElementById(tabName).style.display = "block";
             evt.currentTarget.firstElementChild.className += " w3-border-light-blue";
             evt.currentTarget.firstElementChild.className += " w3-text-light-blue";
         }
