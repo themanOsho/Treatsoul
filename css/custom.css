@@ -405,3 +405,28 @@ input[type=text]:focus {
         width: 40%; 
     }
 }
+
+/* back to top btn */
+@media screen and (max-width: 767px) {
+    #to-top {
+        position: fixed; 
+        right: 15px; 
+        bottom: 15px;
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    #to-top {
+        position: fixed; 
+        right: 40px; 
+        bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    #to-top {
+        position: fixed; 
+        right: 40px; 
+        bottom:10px;
+    }
+}
