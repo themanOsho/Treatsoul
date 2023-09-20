@@ -12,12 +12,12 @@
     <!-- Import font awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Import animation on scroll -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 </head>
 
 <body>
     <!-- header -->
-    <header class="w3-white">
+    <header id="top" class="w3-white">
         <div class="w3-row w3-padding">
             <div class="w3-half logo">
                 <!-- logo -->
@@ -26,10 +26,10 @@
             <div class="w3-half w3-hide-small w3-hide-medium" style="width: 80%;">
                 <div class="w3-row">
                     <div class="w3-col l11 nav w3-right-align">
-                        <a href="#prod" class="w3-btn w3-hover-none w3-large">Product</a>
-                        <a href="#ind" class="w3-btn w3-hover-none w3-large">Dairy Industry Challenges</a>
-                        <a href="#journey" class="w3-btn w3-hover-none w3-large">Journey so far</a>
-                        <a href="#contact" class="w3-btn w3-hover-none w3-large">Contact Us</a>
+                        <a href="#" class="w3-btn w3-hover-none w3-large">Product</a>
+                        <a href="#" class="w3-btn w3-hover-none w3-large">Dairy Industry Challenges</a>
+                        <a href="#" class="w3-btn w3-hover-none w3-large">Journey so far</a>
+                        <a href="#" class="w3-btn w3-hover-none w3-large">Contact Us</a>
                     </div>
                     <div class="w3-col l1 social-follow w3-center">
                         <a href="https://facebook.com/" target="_blank">
@@ -51,10 +51,10 @@
                 <button onclick="closeRightMenu()"
                     class="w3-bar-item w3-white w3-text-light-blue w3-xlarge w3-hover-none w3-right-align">
                     <i class="fa-solid fa-xmark"></i></button><br><br>
-                <a href="#prod" class="w3-btn w3-hover-none w3-bar-item">Product</a>
-                <a href="#ind" class="w3-btn w3-hover-none w3-bar-item">Dairy Industry Challenges</a>
-                <a href="#journey" class="w3-btn w3-hover-none w3-bar-item">Journey so far</a>
-                <a href="#contact" class="w3-btn w3-hover-none w3-bar-item">Contact Us</a>
+                <a href="#" class="w3-btn w3-hover-none w3-bar-item">Product</a>
+                <a href="#" class="w3-btn w3-hover-none w3-bar-item">Dairy Industry Challenges</a>
+                <a href="#" class="w3-btn w3-hover-none w3-bar-item">Journey so far</a>
+                <a href="#" class="w3-btn w3-hover-none w3-bar-item">Contact Us</a>
             </div>
         </div>
     </header>
@@ -70,7 +70,7 @@
         </div>
     </section>
     <!-- product section -->
-    <section id="prod" class="product-section">
+    <section class="product-section">
         <div class="w3-row">
             <div class="w3-col l5 m12">
                 <img class="w3-image" src="images/Reprosol.jpg" alt="Reprosol image" width="100%" data-aos="slide-right">
@@ -178,7 +178,7 @@
         </div>
     </section>
     <!-- industry section -->
-    <div id="ind" class="industry">
+    <div class="industry">
         <div class="w3-row" data-aos="fade">
             <div class="w3-padding w3-col m12 l6">
                 <div class="industry-div-left w3-card-2">
@@ -242,7 +242,7 @@
         </div>
     </div>
     <!-- highlights -->
-    <div id="journey" class="highlights">
+    <div class="highlights">
         <div class="w3-row">
             <div class="w3-display-container m12 l4 w3-col w3-third w3-text-white w3-hover-opacity" data-aos="slide-right">
                 <img src="images/Journey so far.jpg" alt="Lights" style="width:100%">
@@ -303,8 +303,9 @@
                 </div>
             </div>
         </div>
+        
     </div>
-    <footer id="contact">
+    <footer>
         <div class="w3-row footer-row">
             <div class="w3-third footer-div-1 w3-col l4 m12">
                 <img src="images/logo-2.svg" alt="logo">
@@ -332,7 +333,7 @@
                 <h1>LET'S CONNECT</h1>
                 <p>Growing up in poverty, children face tough challenges</p>
                 <div class="w3-row-padding inner">
-                    <form action="contact.php">
+                    <form action="">
                         <div class="w3-half w3-padding">
                             <input type="text" name="fullname" id="fullname" placeholder="Your Name" autocomplete="on"> 
                             <input type="email" name="email" id="email" placeholder="Emial ID" autocomplete="on"> 
@@ -346,6 +347,7 @@
                     </form>
                 </div>
             </div>
+            <a href="#" id="to-top" class="w3-white w3-padding w3-round-xlarge w3-text-light-blue" data-aos="fade"><i class="fa-solid fa-arrow-up-long"></i></a>
         </div>
         <div class="w3-container w3-center w3-padding">
             <hr>
