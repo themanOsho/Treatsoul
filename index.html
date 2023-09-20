@@ -18,12 +18,12 @@
 <body>
     <!-- header -->
     <header id="top" class="w3-white">
-        <div class="w3-row w3-padding">
+        <div class="w3-row header-row">
             <div class="w3-half logo">
                 <!-- logo -->
                 <img class="w3-image" src="images/logo-1.svg" alt="">
             </div>
-            <div class="w3-half w3-hide-small w3-hide-medium" style="width: 80%;">
+            <div class="w3-half w3-hide-small w3-hide-medium custom-blue-color" style="width: 80%;">
                 <div class="w3-row">
                     <div class="w3-col l11 nav w3-right-align">
                         <a href="#prod" class="w3-btn w3-hover-none w3-large">Product</a>
@@ -70,113 +70,220 @@
         </div>
     </section>
     <!-- product section -->
-    <section id="prod" class="product-section" data-aos="zoom-in">
-        <div class="w3-row">
+    <main id="prod" class="product-section w3-border" data-aos="zoom-in">
+        <!-- first tab -->
+        <div class="w3-row w3-container tab" id="product">
             <div class="w3-col l5 m12">
                 <img class="w3-image" src="images/Reprosol.jpg" alt="Reprosol image" width="100%">
             </div>
-            <div class="w3-col l7 m12">
-                <!-- first tab -->
-                <div id="product" class="w3-container tab" style="line-height: 25px;">
-                    <div>
-                        <h2>Reprosol</h2>
-                        <h4>Reproductive Solution</h4>
-                    </div>
-                    <div class="w3-padding-32" style="line-height: 34px;">
-                        <ul>
-                            <li>Soluble- Aqueous solubility of active ingredients maximizes absorption potential</li>
-                            <li>Absorbale- Easy access to efficient transprt mechanism from the lumen all the way
-                                through
-                                the blood. Improved animal performance demostrates absorption.</li>
-                            <li>Stable- pH stability 2.0 to 7.4 ensures survivability through the stomach</li>
-                            <li>Metabolically available- Has greater efficiency to reach target organisms, tissues and
-                                enzymes systems
-                                for a positive impact on performance. Improved animal performance demonstrates unique
-                                metabolism.</li>
-                        </ul>
-                    </div>
+            <div class="w3-col l7 m12 w3-container" style="line-height: 25px;">
+                <div class="w3-padding">
+                    <h2>Reprosol</h2>
+                    <h4>Reproductive Solution</h4>
                 </div>
-                <!-- second tab -->
-                <div id="benefits" class="w3-container tab" style="display:none; line-height: 25px;">
-                    <div>
-                        <h2>Benefits</h2>
-                        <h4>Reproductive Solution</h4>
-                    </div>
-                    <div class="w3-padding-32" style="line-height: 34px;">
-                        <ul>
-                            <li>Soluble- Aqueous solubility of active ingredients maximizes absorption potential</li>
-                            <li>Absorbale- Easy access to efficient transprt mechanism from the lumen all the way
-                                through
-                                the blood. Improved animal performance demostrates absorption.</li>
-                            <li>Stable- pH stability 2.0 to 7.4 ensures survivability through the stomach</li>
-                            <li>Metabolically available- Has greater efficiency to reach target organisms, tissues and
-                                enzymes systems
-                                for a positive impact on performance. Improved animal performance demonstrates unique
-                                metabolism.</li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- third tab -->
-                <div id="competition" class="w3-container tab" style="display:none; line-height: 25px;">
-                    <div>
-                        <h2>Competiton</h2>
-                        <h4>Reproductive Solution</h4>
-                    </div>
-                    <div class="w3-padding-32" style="line-height: 34px;">
-                        <ul>
-                            <li>Soluble- Aqueous solubility of active ingredients maximizes absorption potential</li>
-                            <li>Absorbale- Easy access to efficient transprt mechanism from the lumen all the way
-                                through
-                                the blood. Improved animal performance demostrates absorption.</li>
-                            <li>Stable- pH stability 2.0 to 7.4 ensures survivability through the stomach</li>
-                            <li>Metabolically available- Has greater efficiency to reach target organisms, tissues and
-                                enzymes systems
-                                for a positive impact on performance. Improved animal performance demonstrates unique
-                                metabolism.</li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- fourth tab -->
-                <div id="unit-eco" class="w3-container tab" style="display:none; line-height: 25px;">
-                    <div>
-                        <h2>Unit Economics</h2>
-                        <h4>Reproductive Solution</h4>
-                    </div>
-                    <div class="w3-padding-32" style="line-height: 34px;">
-                        <ul>
-                            <li>Soluble- Aqueous solubility of active ingredients maximizes absorption potential</li>
-                            <li>Absorbale- Easy access to efficient transprt mechanism from the lumen all the way
-                                through
-                                the blood. Improved animal performance demostrates absorption.</li>
-                            <li>Stable- pH stability 2.0 to 7.4 ensures survivability through the stomach</li>
-                            <li>Metabolically available- Has greater efficiency to reach target organisms, tissues and
-                                enzymes systems
-                                for a positive impact on performance. Improved animal performance demonstrates unique
-                                metabolism.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="w3-row w3-center tabDiv w3-container w3-padding" data-aos="zoom-in-up">
-                    <a href="javascript:void(0)" onclick="openTab(event, 'product');" style="width: 25%;">
-                        <div class="w3-third w3-mobile tablink w3-hover-none w3-hover-text-light-blue w3-hover-border-light-blue w3-border-bottom w3-padding"
-                            style="width: 25%;">Product</div>
-                    </a>
-                    <a href="javascript:void(0)" onclick="openTab(event, 'benefits');" style="width: 25%;">
-                        <div class="w3-third w3-mobile tablink w3-hover-none w3-hover-text-light-blue w3-hover-border-light-blue w3-border-bottom w3-padding"
-                            style="width: 25%;">Benefits</div>
-                    </a>
-                    <a href="javascript:void(0)" onclick="openTab(event, 'competition');" style="width: 25%;">
-                        <div class="w3-third w3-mobile tablink w3-hover-none w3-hover-text-light-blue w3-hover-border-light-blue w3-border-bottom w3-padding"
-                            style="width: 25%;">Competiton</div>
-                    </a>
-                    <a href="javascript:void(0)" onclick="openTab(event, 'unit-eco');" style="width: 25%;">
-                        <div class="w3-third w3-mobile tablink w3-hover-none w3-hover-text-light-blue w3-hover-border-light-blue w3-border-bottom w3-padding"
-                            style="width: 25%;">Unit Economics</div>
-                    </a>
+                <div class="w3-padding-32" style="line-height: 42px;">
+                    <ul>
+                        <li>Soluble- Aqueous solubility of active ingredients maximizes absorption potential</li>
+                        <li>Absorbale- Easy access to efficient transprt mechanism from the lumen all the way
+                            through
+                            the blood. Improved animal performance demostrates absorption.</li>
+                        <li>Stable- pH stability 2.0 to 7.4 ensures survivability through the stomach</li>
+                        <li>Metabolically available- Has greater efficiency to reach target organisms, tissues and
+                            enzymes systems
+                            for a positive impact on performance. Improved animal performance demonstrates unique
+                            metabolism.</li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>
+        <!-- second tab -->
+        <div class="w3-row w3-container tab" id="benefits" style="display: none;">
+            <div class="w3-col l6 m12">
+                <h4>Monetary Benefits to farmer</h4>
+                <h4 class="w3-pale-yellow w3-padding-small w3-center w3-border w3-round-xlarge">Current Scenerio</h4>
+                <table class="w3-table">
+                    <tr class="tr-head">
+                        <th>#</th>
+                        <th>Description</th>
+                        <th>Units</th>
+                        <th>Data</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>For 1 conception - 3.5 Artificial Insemination required</td>
+                        <td>Nos</td>
+                        <td>3.5</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>1 Artificial Insemination Cost</td>
+                        <td>Rs</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Total Expense</td>
+                        <td>Rs</td>
+                        <td>1050</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Artificial Insemination Schedule</td>
+                        <td>Days</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>If 3.5 conception required in days</td>
+                        <td>Days</td>
+                        <td>74</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Farmer losses 73.5 days of milk after craving</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Milk production @ per day 15 lit x 73.5 days</td>
+                        <td>ltr</td>
+                        <td>1103</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Price 45 Rs/ltr</td>
+                        <td>Rs</td>
+                        <td>49,612</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Feeding and other expense</td>
+                        <td>Rs</td>
+                        <td>34,729</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Net loss to farmer per cattle</td>
+                        <td>Rs</td>
+                        <td>14,884</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="w3-col l6 m12 w3-container">
+                <h4 class="w3-pale-yellow w3-padding-small w3-center w3-border w3-round-xlarge">Reprosol cost to farmer</h4>
+                <table class="w3-table" style="height: 350px;">
+                    <tr class="tr-head">
+                        <th>Description</th>
+                        <th>Units</th>
+                        <th>Data A</th>
+                        <th>Data B</th>
+                    </tr>
+                    <tr>
+                        <td>Dosage requirement for cattle</td>
+                        <td>gm/day</td>
+                        <td>30</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>MRP</td>
+                        <td>Rs</td>
+                        <td>300</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>Per gram cost to farmer</td>
+                        <td>Rs</td>
+                        <td>0.3</td>
+                        <td>0.3</td>
+                    </tr>
+                    <tr>
+                        <td>Per day cost to farmer</td>
+                        <td>Rs</td>
+                        <td>9</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>Per month per cattle cost to farmer</td>
+                        <td>Rs</td>
+                        <td>270</td>
+                        <td>450</td>
+                    </tr>
+                </table>
+                <div class="w3-padding w3-pale-yellow w3-border">
+                    By investing Rs <b>270-450</b> per month, farmer can save upto Rs <b>14,884</b> per month per cattle
+                </div>
+            </div>
+        </div>
+        <!-- third tab -->
+        <div class="w3-row w3-container tab" id="competition" style="display: none;">
+            <div class="w3-col l5 m12">
+                <img class="w3-image" src="images/Projections.jpg" alt="Reprosol image" width="100%">
+            </div>
+            <div class="w3-col l7 m12 w3-container" style="line-height: 25px;">
+                <div>
+                    <h2>Competiton</h2>
+                    <h4>Reproductive Solution</h4>
+                </div>
+                <div class="w3-padding-32" style="line-height: 34px;">
+                    <ul>
+                        <li>Soluble- Aqueous solubility of active ingredients maximizes absorption potential</li>
+                        <li>Absorbale- Easy access to efficient transprt mechanism from the lumen all the way
+                            through
+                            the blood. Improved animal performance demostrates absorption.</li>
+                        <li>Stable- pH stability 2.0 to 7.4 ensures survivability through the stomach</li>
+                        <li>Metabolically available- Has greater efficiency to reach target organisms, tissues and
+                            enzymes systems
+                            for a positive impact on performance. Improved animal performance demonstrates unique
+                            metabolism.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- fourth tab -->        
+        <div class="w3-row w3-container tab" id="unit-eco" style="display: none;">
+            <div class="w3-col l5 m12">
+                <img class="w3-image" src="images/Dairy Cattle Population.jpg" alt="Reprosol image" width="100%">
+            </div>
+            <div class="w3-col l7 m12 w3-container" style="line-height: 25px;">
+                <div>
+                    <h2>Competiton</h2>
+                    <h4>Reproductive Solution</h4>
+                </div>
+                <div class="w3-padding-32" style="line-height: 34px;">
+                    <ul>
+                        <li>Soluble- Aqueous solubility of active ingredients maximizes absorption potential</li>
+                        <li>Absorbale- Easy access to efficient transprt mechanism from the lumen all the way
+                            through
+                            the blood. Improved animal performance demostrates absorption.</li>
+                        <li>Stable- pH stability 2.0 to 7.4 ensures survivability through the stomach</li>
+                        <li>Metabolically available- Has greater efficiency to reach target organisms, tissues and
+                            enzymes systems
+                            for a positive impact on performance. Improved animal performance demonstrates unique
+                            metabolism.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="w3-row w3-center tabDiv">
+            <a href="javascript:void(0)" onclick="openTab(event, 'product');" style="width: 25%;">
+                <div class="w3-quarter w3-mobile tablink w3-hover-none j3-hover-text-light-blue j3-hover-border-light-blue w3-border-bottom w3-padding"
+                    style="width: 25%;">Product</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openTab(event, 'benefits');" style="width: 25%;">
+                <div class="w3-quarter w3-mobile tablink w3-hover-none j3-hover-text-light-blue j3-hover-border-light-blue w3-border-bottom w3-padding"
+                    style="width: 25%;">Benefits</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openTab(event, 'competition');" style="width: 25%;">
+                <div class="w3-quarter w3-mobile tablink w3-hover-none j3-hover-text-light-blue j3-hover-border-light-blue w3-border-bottom w3-padding"
+                    style="width: 25%;">Competiton</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openTab(event, 'unit-eco');" style="width: 25%;">
+                <div class="w3-quarter w3-mobile tablink w3-hover-none j3-hover-text-light-blue j3-hover-border-light-blue w3-border-bottom w3-padding"
+                    style="width: 25%;">Unit Economics</div>
+            </a>
+        </div>
+    </main>
     <!-- industry section -->
     <div id="ind" class="industry">
         <div class="w3-row" data-aos="fade-up">
@@ -387,12 +494,12 @@
             }
             tablinks = document.getElementsByClassName("tablink");
             for (i = 0; i < x.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace("w3-border-light-blue", "");
-                tablinks[i].className = tablinks[i].className.replace("w3-text-light-blue", "");
+                tablinks[i].className = tablinks[i].className.replace("j3-border-light-blue", "");
+                tablinks[i].className = tablinks[i].className.replace("j3-text-blue", "");
             }
             document.getElementById(tabName).style.display = "block";
-            evt.currentTarget.firstElementChild.className += " w3-border-light-blue";
-            evt.currentTarget.firstElementChild.className += " w3-text-light-blue";
+            evt.currentTarget.firstElementChild.className += " j3-border-light-blue";
+            evt.currentTarget.firstElementChild.className += " j3-text-blue";
         }
     </script>
 </body>
